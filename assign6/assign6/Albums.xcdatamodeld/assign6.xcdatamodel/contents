@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Album" representedClassName="Album" syncable="YES" codeGenerationType="class">
+        <attribute name="cover" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="year" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="artist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Artist" inverseName="album" inverseEntity="Artist"/>
+    </entity>
+    <entity name="Artist" representedClassName="Artist" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="album" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Album" inverseName="artist" inverseEntity="Album"/>
+    </entity>
+    <elements>
+        <element name="Album" positionX="-63" positionY="-18" width="128" height="104"/>
+        <element name="Artist" positionX="-63" positionY="18" width="128" height="59"/>
+    </elements>
+</model>

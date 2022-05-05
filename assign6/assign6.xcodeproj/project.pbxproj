@@ -12,7 +12,7 @@
 		019CBF38282342FE00B67EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019CBF37282342FE00B67EB2 /* Assets.xcassets */; };
 		019CBF3B282342FE00B67EB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019CBF3A282342FE00B67EB2 /* Preview Assets.xcassets */; };
 		019CBF3D282342FE00B67EB2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CBF3C282342FE00B67EB2 /* Persistence.swift */; };
-		019CBF40282342FE00B67EB2 /* assign6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 019CBF3E282342FE00B67EB2 /* assign6.xcdatamodeld */; };
+		019CBF40282342FE00B67EB2 /* Albums.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 019CBF3E282342FE00B67EB2 /* Albums.xcdatamodeld */; };
 		019CBF492823528400B67EB2 /* addAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CBF482823528300B67EB2 /* addAlbumView.swift */; };
 		019CBF4B2823538D00B67EB2 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CBF4A2823538D00B67EB2 /* ArtistView.swift */; };
 		019CBF4D282353E400B67EB2 /* addArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CBF4C282353E400B67EB2 /* addArtistView.swift */; };
@@ -73,7 +73,7 @@
 				019CBF33282342ED00B67EB2 /* assign6App.swift */,
 				019CBF35282342ED00B67EB2 /* ContentView.swift */,
 				019CBF37282342FE00B67EB2 /* Assets.xcassets */,
-				019CBF3E282342FE00B67EB2 /* assign6.xcdatamodeld */,
+				019CBF3E282342FE00B67EB2 /* Albums.xcdatamodeld */,
 				019CBF39282342FE00B67EB2 /* Preview Content */,
 			);
 			path = assign6;
@@ -191,7 +191,7 @@
 				019CBF54282356D800B67EB2 /* Artist+ViewModel.swift in Sources */,
 				019CBF34282342ED00B67EB2 /* assign6App.swift in Sources */,
 				019CBF522823568800B67EB2 /* Album+ViewModel.swift in Sources */,
-				019CBF40282342FE00B67EB2 /* assign6.xcdatamodeld in Sources */,
+				019CBF40282342FE00B67EB2 /* Albums.xcdatamodeld in Sources */,
 				019CBF4D282353E400B67EB2 /* addArtistView.swift in Sources */,
 				019CBF492823528400B67EB2 /* addAlbumView.swift in Sources */,
 				019CBF4B2823538D00B67EB2 /* ArtistView.swift in Sources */,
@@ -395,13 +395,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		019CBF3E282342FE00B67EB2 /* assign6.xcdatamodeld */ = {
+		019CBF3E282342FE00B67EB2 /* Albums.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				019CBF3F282342FE00B67EB2 /* assign6.xcdatamodel */,
 			);
 			currentVersion = 019CBF3F282342FE00B67EB2 /* assign6.xcdatamodel */;
-			path = assign6.xcdatamodeld;
+			path = Albums.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
