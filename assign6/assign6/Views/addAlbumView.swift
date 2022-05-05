@@ -42,7 +42,7 @@ struct addAlbumView: View {
             Spacer()
         }
         .padding()
-        .navigationBarTitle("Add Book")
+        .navigationBarTitle("Add Album")
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button("Save") {
@@ -50,7 +50,7 @@ struct addAlbumView: View {
                     let year = Int32(inputYear)
                     if !newTitle.isEmpty && year != nil {
                         Task(priority: .high) {
-                            await storeBook(title: newTitle, year: year!)
+                            await storeAlbum(title: newTitle, year: year!)
                         }
                     }
                 }
@@ -58,7 +58,7 @@ struct addAlbumView: View {
         }
     }
     
-    func storeBook(title: String, year: Int32) async {
+    func storeAlbum(title: String, year: Int32) async {
         await dbContext.perform {
             let newAlbum = Album(context: dbContext)
             newAlbum.title = title
