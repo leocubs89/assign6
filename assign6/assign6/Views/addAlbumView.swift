@@ -113,8 +113,8 @@ struct addAlbumView: View {
             newAlbum.title = title
             newAlbum.year = year
             newAlbum.artist = selectedArtist
-            newAlbum.cover = UIImage(named: "cover")?.pngData()
-            newAlbum.thumbnail = UIImage(named: "thumbnail")?.pngData()
+            newAlbum.cover = UIImage(named: &image)?.pngData()
+            newAlbum.thumbnail = UIImage(named: &image)?.pngData()
             
             do {
                 try dbContext.save()
