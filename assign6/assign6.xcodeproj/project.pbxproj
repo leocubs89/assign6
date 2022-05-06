@@ -19,6 +19,7 @@
 		019CBF4F2823559200B67EB2 /* RowAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CBF4E2823559200B67EB2 /* RowAlbum.swift */; };
 		019CBF522823568800B67EB2 /* Album+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CBF512823568800B67EB2 /* Album+ViewModel.swift */; };
 		019CBF54282356D800B67EB2 /* Artist+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CBF53282356D800B67EB2 /* Artist+ViewModel.swift */; };
+		190F10FC2824AD33002CA121 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F10FB2824AD33002CA121 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		019CBF4E2823559200B67EB2 /* RowAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowAlbum.swift; sourceTree = "<group>"; };
 		019CBF512823568800B67EB2 /* Album+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Album+ViewModel.swift"; sourceTree = "<group>"; };
 		019CBF53282356D800B67EB2 /* Artist+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Artist+ViewModel.swift"; sourceTree = "<group>"; };
+		190F10FB2824AD33002CA121 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				019CBF4A2823538D00B67EB2 /* ArtistView.swift */,
 				019CBF4C282353E400B67EB2 /* addArtistView.swift */,
 				019CBF4E2823559200B67EB2 /* RowAlbum.swift */,
+				190F10FB2824AD33002CA121 /* ImagePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				019CBF34282342ED00B67EB2 /* assign6App.swift in Sources */,
 				019CBF522823568800B67EB2 /* Album+ViewModel.swift in Sources */,
 				019CBF40282342FE00B67EB2 /* Albums.xcdatamodeld in Sources */,
+				190F10FC2824AD33002CA121 /* ImagePicker.swift in Sources */,
 				019CBF4D282353E400B67EB2 /* addArtistView.swift in Sources */,
 				019CBF492823528400B67EB2 /* addAlbumView.swift in Sources */,
 				019CBF4B2823538D00B67EB2 /* ArtistView.swift in Sources */,
