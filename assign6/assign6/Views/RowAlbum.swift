@@ -2,7 +2,7 @@
 //  RowAlbum.swift
 //  assign6
 //
-//  Created by Leo Lopez on 5/4/22.
+//  Created by Leo Lopez and Dale Westberg on 5/4/22.
 //
 
 import SwiftUI
