@@ -21,7 +21,7 @@ struct addAlbumView: View {
 
     
     var body: some View {
-        NavigationView {
+        //NavigationView {
             VStack(spacing: 12) {
                 HStack {
                     Text("Title:")
@@ -95,7 +95,7 @@ struct addAlbumView: View {
                     }
                 }
             }
-        }   //navigationview
+        //}   //navigationview
         .sheet(isPresented: $showPhotoLibrary) {
             ImagePicker(sourceType: .photoLibrary, selectedImage: $image)
         }
